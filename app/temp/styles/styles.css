@@ -567,6 +567,10 @@ a {
     display: table;
   }
 
+.row--t-padding {
+    padding-top: 80px;
+  }
+
 .row--gutters {
     margin-right: -65px;
   }
@@ -575,12 +579,20 @@ a {
     margin-right: -100px;
   }
 
+.row--gutters-small {
+    margin-right: -45px;
+  }
+
 .row--gutters > div {
     padding-right: 65px;
   }
 
 .row--gutters-large > div {
     padding-right: 100px;
+  }
+
+.row--gutters-small > div {
+    padding-right: 45px;
   }
 
 .row__b-margin-until-medium {
