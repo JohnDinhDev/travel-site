@@ -1,6 +1,7 @@
 .feature-item {
-  padding-left: 94px;
+
   position: relative;
+  padding-left: 94px;
   padding-bottom: 2.50rem;
 
   &__icon {
@@ -9,7 +10,7 @@
   }
 
   &__title {
-    font-size:1.875rem;
+    font-size: 1.875rem;
     font-weight: 300;
     margin-bottom: 0.8rem;
   }
