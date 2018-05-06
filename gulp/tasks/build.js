@@ -35,7 +35,7 @@ gulp.task('copyGeneralFiles', ['deleteDistFolder', 'icons'], function () {
   .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('optimizeImages', ['deleteDistFolder'], function () {
+gulp.task('optimizeImages', ['deleteDistFolder', 'icons'], function () {
   return gulp.src(['./app/assets/images/**/*', '!./app/assets/images/icons', '!./app/assets/images/icons/**/*'])
   .pipe(imagemin({
     progressive: true,
