@@ -1032,6 +1032,9 @@ Instead edit gulp/templates/sprite */
     left: 50%;
     -webkit-transform: translateX(-50%) scale(0.8);
             transform: translateX(-50%) scale(0.8);
+    transition: -webkit-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
     -webkit-transform-origin: 50% 0;
             transform-origin: 50% 0;
     background-color: #2f5572;
@@ -1045,6 +1048,11 @@ Instead edit gulp/templates/sprite */
       -webkit-transform: translateX(0);
               transform: translateX(0)
   }
+
+      .site-header--dark .site-header__logo {
+        -webkit-transform: scale(0.57);
+                transform: scale(0.57);
+      }
   }
 
 .site-header__logo__graphic {
