@@ -1038,7 +1038,7 @@ Instead edit gulp/templates/sprite */
     -webkit-transform-origin: 50% 0;
             transform-origin: 50% 0;
     background-color: #2f5572;
-    padding: 25px 36px;
+    padding: 24.5px 36px;
   }
 
 @media (min-width: 800px) {
@@ -1235,6 +1235,10 @@ Instead edit gulp/templates/sprite */
       font-size: 1rem;
       background-color: transparent
   }
+
+      .primary-nav a.is-current-link {
+        color: #fabb69;
+      }
   }
 
 .reveal-item {
