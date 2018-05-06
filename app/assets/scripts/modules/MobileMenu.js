@@ -12,7 +12,6 @@ class MobileMenu {
 
   events() {
     this.$menuIcon.click(this.toggleTheMenu.bind(this));
-    console.log(this);
   }
 
   toggleTheMenu() {
