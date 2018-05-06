@@ -1050,7 +1050,7 @@ Instead edit gulp/templates/sprite */
     -webkit-transform-origin: 50% 0;
             transform-origin: 50% 0;
     background-color: #2f5572;
-    padding: 25px 36px;
+    padding: 24.5px 36px;
   }
 
 @media (min-width: 800px) {
@@ -1062,8 +1062,20 @@ Instead edit gulp/templates/sprite */
   }
 
       .site-header--dark .site-header__logo {
+        -webkit-transform: scale(0.56);
+                transform: scale(0.56);
+      }
+  }
+
+@media (min-width: 1010px) {
+
+.site-header__logo {
+      padding: 24px 26px
+  }
+
+      .site-header--dark .site-header__logo {
         -webkit-transform: scale(0.55);
-                transform: scale(0.55);
+                transform: scale(0.55)
       }
   }
 
